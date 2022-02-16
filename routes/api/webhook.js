@@ -47,7 +47,7 @@ var config = {
   method: 'post',
   url: 'https://webexapis.com/v1/messages',
   headers: { 
-    'Authorization': `Bearer ${roomid}`, 
+    'Authorization': `Bearer ${bot_secret}`, 
     'Content-Type': 'application/json'
   },
   data : data
